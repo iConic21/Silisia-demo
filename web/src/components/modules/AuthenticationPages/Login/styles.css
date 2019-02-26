@@ -1,0 +1,34 @@
+.app__login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--main-bg-color-2);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.app__login__title {
+    color: var(--main-text-color);
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.app__login__form__inputs {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.app__login__form__submit.bp3-button:hover,
+.app__login__form__submit.bp3-button {
+    margin-top: 15px;
+    width: 100%;
+    background-color: var(--main-color);
+    background-image: none;
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}

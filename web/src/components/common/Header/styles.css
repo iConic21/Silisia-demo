@@ -1,0 +1,9 @@
+.app__header.bp3-dark {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(255,255,255, 0.05);
+}
+.app__header.bp3-dark .bp3-button,
+.app__header.bp3-dark .bp3-button .bp3-icon {
+    color: var(--main-text-color);
+}
